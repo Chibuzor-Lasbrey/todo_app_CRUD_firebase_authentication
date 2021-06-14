@@ -1,0 +1,39 @@
+name: sqflite_database_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # database storage
+  sqflite: ^2.0.0+3
+
+  # format DateTime
+  intl: ^0.17.0
+
+  # display todos in grid
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  animated_splash_screen: ^1.1.0
+  google_fonts: ^2.1.0
+  firebase_core: ^1.3.0
+  firebase_auth: ^1.4.0
+  provider: ^5.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.jpg
+    - assets/images/puppy.jpg
+    - assets/images/lines.jpg
+    - assets/images/loag.jpg
